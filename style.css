@@ -1,0 +1,215 @@
+
+#container  {
+width: 960px;
+margin: 0 auto;
+}
+
+#header	{
+
+width: 960px;
+height: 200px;
+position: relative;
+background-image: url(image/ppt_green_10.jpg);
+border-bottom: 4px solid #000000;
+
+}
+
+body {
+	background-color:#82CAFF;
+	font:12px Verdana, Arial, Helvetica, sans-serif;
+	line-height:18px;
+	color:#000;
+}
+
+
+#footer  {
+
+clear: both;
+width:100%;
+background-color: #D1C0A7;
+}
+
+h2  {
+
+font-size: 20px;
+color: #cc0000;
+padding: 10px;
+font-family: Verdana;
+}
+#horizontalnav  {
+
+width: 960px;
+height: 30px;
+position: relative;
+background-color: #00FF00;
+border-bottom: 2px solid #000000;
+border-top: 1px solid #000000;
+}
+
+.navlinks  {
+position: absolute; top: 5px; left: 180px; 
+
+}
+
+.navlinks ul { 
+margin: auto;
+
+}
+
+.navlinks li {
+margin: 0px 18px 0px 0px;
+list-style-type: none;
+display: inline;
+
+}
+
+.navlinks li a {
+color: #000000;
+padding: 5px 5px 5px;
+text-decoration: none;
+font-size: 16px;
+text-align:center;
+font-family: Verdana;
+}
+
+.navlinks li a:hover{
+color: #ffffff;
+background-image: url(image/BGhover.jpg);
+ /*If you want to use a color for the background instead replace above line with background-color: [insert color here with # sign in front];*/
+text-decoration: underline;
+}
+
+table.maintable {
+	width:100%;
+	clear:both;
+	background-color:#B5EAAA;
+}
+td.maintableleft {
+	width:180px;
+	min-width:180px;
+}
+
+/*########################### colors #############################*/
+.color-menu {
+	color:#ffffff;
+}
+.background-color-menu {
+	background-color:#50719b;
+	
+}
+div.centercontent {
+	margin-top:0;
+
+	width:auto;
+}
+
+/*########################################################*/
+/* left menu */
+
+div.leftmenu {
+	background-color:white;
+	width:auto;
+	border:px solid #f5f5f5;
+	font:12px Verdana, Arial, Helvetica, sans-serif;
+	line-height:18px;
+}
+div.leftmenutitle {
+	/*background-color:#FFFFf0;*/
+	background-color:#50719b;
+
+	text-align:center;
+}
+div.leftmenutitle span {
+	font:12px Verdana, Arial, Helvetica, sans-serif;
+	font-weight:bold;
+	line-height:18px;
+	/*color:#002255;*/
+	color:#002255;
+}
+div.leftmenu ul {
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+div.leftmenu li {
+	margin:0;
+	padding:0;
+	background-color:#fee0ff;
+	/*border:1px solid #d5e5ff;*/
+	line-height:20px;
+}
+div.leftmenu a {
+	margin:0 0 0 10px;
+	padding:0;
+	text-decoration:none;
+}
+
+div.leftmenu li:hover {
+	background-color:	#736AFF;
+	text-decoration: underline;
+}
+div.leftmenu a:link {
+	color:	#151B8D;
+}
+
+/* end left menu */
+
+/*########################################################*/
+
+
+.background-color-3 {
+	background-color:#B5EAAA;;
+}
+.color-3 {
+	color:#50719b;
+}
+
+.main-titles {
+	text-align:center;
+}
+.main-titles a {
+	text-decoration:none;
+	font-size:30px;
+	font-weight:600;
+}
+
+.main-text img {
+	margin-bottom:6px;
+	margin-right:10px;
+}
+#videoplayer { display:block; width:680px; height:360px; }
+.jcarousel-clip { width: 840px; height: 100%; overflow: hidden; }
+
+
+/*##############  INDENT   ############*/
+
+
+/* Indent the first line on he paragraph */
+
+p {
+	text-indent: 20px;
+	}
+
+
+
+/*search*/
+
+.navfont { font-family: Verdana, Helvetica, Arial, sans-serif; font-size: 10px; color: #666666; text-decoration: none; }
+A.navfont:hover { color:#000000; }
+
+.linkstyle { text-decoration: none; color:#333399; ; font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 13px; font-weight: bold}
+A.linkstyle:hover { color:#FF6600; }
+
+.catfont { font-size: 14px; font-weight: bold; font-family: Geneva, Arial, Helvetica, san-serif; color: #000000; }
+
+.sitelinkfont {	font-family: Verdana, Helvetica, Arial, sans-serif; font-size: 11px; color: #666666; text-decoration: none; }
+A.sitelinkfont:hover { color:#000000; }
+
+.headlinefont {	font-size: 16px; font-weight: bold; font-family: Geneva, Arial, Helvetica, san-serif; color: #000000; }
+
+.tabfont { font-family: Geneva, Arial, Helvetica, san-serif; font-size: 11px; color: #ffffff; font-weight: bold; }
+
+.spacerfont { font-size: 4px; color: #ffffff }
+
+
+
